@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="gray">
+
+    <form name="Cadastro" method="get" action="index.html">
+        
+        <table>
+            <tr>
+                <td>Informe seu Nome:</td>
+                <td><input type="text" name="nome" placeholder="Gabriel" required></td>
+            </tr>
+            <tr>
+                <td>Informe seu Endereço:</td>
+                <td><input type="text" name="endereco" placeholder="Rua Sete" required></td>
+            </tr>
+            <tr>
+                <td>Informe seu E-Mail:</td>
+                <td><input type="email" name="email" placeholder="exemplo@gmail.com" required></td>
+            </tr>
+
+            <tr>
+                <td>Insira sua Senha:</td>
+                <td><input type="password" name="senha" placeholder="Insira sua senha" maxlength="15" minlength="6" required> </td>
+            </tr>
+            <tr>
+                <td>Informe seu Site:</td>
+                <td><input type="url" name="site"></td>
+            </tr>
+
+            <tr>
+                <td>Informe um numero:</td>
+                <td><input type="number" name="numero" max="100"></td>
+            </tr>
+
+            <tr>
+                <td>Escolha um valor</td>
+                <td><input type="range" name="valor"></td>
+            </tr>
+            <tr>
+                <td>Escolha uma data</td>
+                <td><input type="date" name="data" min="2000-01-01" value="2010-10-10"></td>
+            </tr>
+            <tr>
+                <td>Determine um horario</td>
+                <td><input type="time" name="hora" step="300"></td>
+            </tr>
+
+            <tr>
+                <td colspan="2">Selecione o estado</td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <select name="estado" >
+                        <option value="ac">AC</option>
+                        <option value="sp">SP</option>
+                        <option value="rj">RJ</option>
+                        <option value="mt">MT</option>
+                        <option value="mg">MG</option>
+                        <option value="sc">SC</option>
+                        <option value="bh">BH</option>
+
+                    </select>
+            <tr>
+                <td colspan="2">Deixe seu comentário</td>
+            </tr>
+            <tr>
+                <td>
+                    <textarea name="Area de texto" cols="10" rows="5"></textarea>
+                </td>
+            </tr>
+                <tr>
+                    <td align="center"><input type="submit" name="enviar"></td>
+                    <td align="center"><input type="reset" name="limpar"></td>
+                </tr>
+
+
+                </td>
+            </tr>
+        </table>
+
+    </form>
+    
+</body>
+</html>
