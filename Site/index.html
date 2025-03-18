@@ -8,8 +8,7 @@
 <body bgcolor="gray">
 
     <form name="Cadastro" method="get" action="index.html">
-        
-        <table> //criar uma table
+        <table> 
             <tr>
                 <td>Informe seu Nome:</td>
                 <td><input type="text" name="nome" placeholder="Gabriel" required></td>
@@ -66,11 +65,37 @@
 
                     </select>
             <tr>
+                <td colspan="2">Escolaridade</td>
+                <td>
+                    <input type="radio" name="esc"
+                     value="nao_alfabet">Não Alfabetizado<br>
+
+                     <input type="radio" name="esc" 
+                     value="fund_inc">Fundamental Incompleto<br>
+                     <input type="radio" name="esc" 
+                     value="fund_inc">Ensino fundamental completo<br>
+                     <input type="radio" name="esc" 
+                     value="fund_inc">Ensino médio completo<br>
+                     <input type="radio" name="esc" 
+                     value="fund_inc">Ensino superior completo<br>
+
+
+
+                </td>
+            </tr>
+            <tr>
                 <td colspan="2">Deixe seu comentário</td>
             </tr>
             <tr>
                 <td>
                     <textarea name="Area de texto" cols="10" rows="5"></textarea>
+                </td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="radio" value="estadocivil">Solteiro(a)
+                    <input type="radio" value="estadocivil">Casado(a)
                 </td>
             </tr>
                 <tr>
